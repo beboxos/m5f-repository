@@ -1,0 +1,28 @@
+
+lcd.setBrightness( brightness )
+	set screen brightness value from 0 off to 255 full
+	example : lcd.setBrightness(10)
+lcd.fillRoundRect(x, y, width, height, radius, color)
+	Draw a filled round rectangle
+	example : lcd.fillRoundRect(50, 50, 64, 64, 10, 0x1d9dc4)
+lcd.drawRoundRect(x, y, width, height, radius, color)
+	Draw a round rectangle
+	example :  lcd.drawRoundRect(50, 120, 64, 64, 10, 0x1d9dc4)
+lcd.fillCircle(center x, center y, radius, color)
+	draw a filled rectangle
+	example : lcd.fillCircle(20, 20, 30, 0x1d9dc4)
+lcd.fillTriangle(x1, y1, x2, y2, x3, y3, color)
+	draw a filled triangle
+	example : lcd.fillTriangle(0, 200, 100, 190, 150, 220, 0x1d9dc4)
+lcd.setRotation(angle)
+	set screen rotation angle
+	example : lcd.setRotation(90)
+lcd.setCursor(x,y)
+	set in pixel cursor
+	example : lcd.setCursor(0,30)
+lcd.println( String )
+	print with line retrun at cursor
+	example : lcd.println("text")
+lcd.print( String )
+	print at cursor
+	example : lcd.print("text")
